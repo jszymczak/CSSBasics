@@ -1,0 +1,59 @@
+body{
+    margin:20pt;
+    background-color: #FBF5D4;
+    color: #6A2635;
+    width: 400pt;
+    font-family: Georgia, 'Times New Roman', serif
+}
+
+h1  {
+    background-color: #9398AA;
+    padding: 10pt;
+    color: #222C4D;
+    letter-spacing: 12pt;
+    text-align: center;
+}
+
+h2 {
+    color: #222C4D;
+    border: dashed 2pt #222C4D;
+    padding-top: 15pt; 
+    padding-left: 10pt;
+    padding-right: 10pt;
+    padding-bottom: 0pt;
+    text-align: center;
+}
+
+q {
+    font-style: italic;
+}
+
+.leoQuote {
+    background-color: #D0C898;
+    text-align: right;
+    border: none;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 0.75em;
+}
+
+h3 {
+    background-color: #C4DAB8;
+    color: #3A6424;
+    padding: 10pt;
+}
+
+p {
+    color: #222C4D;
+    padding: 10pt;
+    border: dotted 4pt #95B584;
+    text-align:justify;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+ol, ul {
+    color: #222C4D;
+    padding: 10pt;
+    padding-left: 20pt;
+    border: dotted 4pt #95B584;
+    font-family: 'Lucida Sans', sans-serif;
+}
