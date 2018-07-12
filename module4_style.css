@@ -1,0 +1,117 @@
+body {
+    min-width: 600px;
+    max-width: 800px;
+    width:80%;
+    margin: 0 auto;
+    background-color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    float: left;
+    width: 100%;
+    border-bottom: 5px solid black;
+}
+
+header h1{
+    float: left;
+    margin-left: 1em;
+}
+
+header #pierwszeDane{
+    float: right;
+    clear: right;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.blueLetters {
+    color: rgb(8, 101, 129);
+}
+
+section {
+    background-color: rgba(230, 230, 230, 0.829);
+    margin-top: 0.5em;
+}
+
+#objRight p, #eduCation p, #leaderShip p, #charityWork p {
+    padding: 0em 0.7em 0em 0.7em;
+    text-align:left;
+}
+
+#workExp div{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#workExp div h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#workExp div p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1em;
+}
+
+#workExp h3{
+    margin-bottom: 0;
+}
+
+section h3{
+    font-family: Geneva, Tahoma, sans-serif;
+    padding-left: 0.5em;
+    padding-bottom: 0.3em;
+    border-bottom: solid 2px black;
+}
+
+#workExp, #charityWork {
+    float: left;
+    width: 70%;
+}
+
+.kontener{
+    margin-bottom: 0.5em;
+}
+
+#objRight, #eduCation, #leaderShip{
+    float: right;
+    width: 28%;
+    clear: right;
+}
+
+/*#charityWork {
+    display: inline-block;
+    width: 100%;
+}*/
+
+footer {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+footer a:visited{
+    color: rgba(11, 63, 68, 0.815);
+}
+
+footer a:link{
+    color: rgba(49, 198, 209, 0.75)
+}
+
+#workExp .desElem::first-line{
+    color: rgba(35, 147, 155, 0.75);
+}
+
+::selection {
+    background-color: rgba(19, 66, 70, 0.75);
+    color: rgb(255, 255, 255);
+}
